@@ -1,6 +1,37 @@
 
 /*** Spinner Start ***/
 /*** Spinner ***/
+/* تطبيق خط "Plus Jakarta Sans" على العناوين */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 700; /* الوزن الافتراضي */
+}
+
+/* تطبيق خط "Rubik" على النصوص الأخرى */
+body, p, span, a, li, div {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400; /* الوزن الافتراضي */
+}
+
+/* تخصيص الوزن لعناوين H1 و H2 */
+h1 {
+    font-weight: 700; /* خط Jakarta بوزن ثقيل للعناوين الرئيسية */
+}
+
+h2 {
+    font-weight: 600; /* خط Jakarta بوزن متوسط للعناوين الثانوية */
+}
+
+/* تخصيص الوزن للنصوص */
+p, span, a, li, div {
+    font-weight: 400; /* خط Rubik بوزن عادي للنصوص */
+}
+
+/* تخصيص الوزن المختلف عند الحاجة */
+p.important-text {
+    font-weight: 500; /* خط Rubik بوزن متوسط لنصوص مهمة */
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;
